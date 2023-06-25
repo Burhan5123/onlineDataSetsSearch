@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href="week10.css">
+    <script src="week10.js"></script>
+    <title>Index</title>
+</head>
+<body>
+
+
+    <h2>Choose from the following Data Sets</h2>
+    <div class="radio">
+
+    <input  id="dataset1" type="radio" name="data" value="data1" onchange=" getpage(id); return false;"> DOB Complaints Received<br>
+	<input  id="dataset2" type="radio" name="data" value="data2" onchange=" getpage(id); return false;"> Motor Vehicle Collisions<br>
+    <input  id="dataset3" type="radio" name="data" value="data3" onchange=" getpage(id); return false;"> Fire Incident Dispatch<br><br>
+    </div>
+
+    <br>
+    <span id="searchItem"></span>
+    <br>
+    <span id="searchItemBy"></span>
+    <br>
+    <table id="searchresults"></table>
+   
+
+</body>
+</html>

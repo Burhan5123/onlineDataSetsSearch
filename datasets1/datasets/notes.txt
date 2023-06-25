@@ -1,0 +1,138 @@
+ Building Permits
+ 
+ https://data.calgary.ca/resource/c2es-76ed.json 
+ //structure
+  {
+        "permitnum": "BP2021-04324",
+        "statuscurrent": "In Review",
+        "applieddate": "2021-03-22T00:00:00.000",
+        "permittype": "Single Construction Permit",
+        "permittypemapped": "Building",
+        "permitclass": "1106 - Single Family House",
+        "permitclassgroup": "Single Family",
+        "permitclassmapped": "Residential",
+        "workclass": "New",
+        "workclassgroup": "New",
+        "workclassmapped": "New",
+        "description": "SFD,GARAGE,PORCH,",
+        "contractorname": "JAYMAN MASTERBUILT / WENDI INTERIORS",
+        "housingunits": "1",
+        "estprojectcost": "295360.54",
+        "totalsqft": "1807",
+        "originaladdress": "330 RED SKY TC NE",
+        "communitycode": "RSN",
+        "communityname": "REDSTONE",
+        "latitude": "51.17361948379003",
+        "longitude": "-113.94850406578414",
+        "location": {
+            "latitude": "51.17361948379003",
+            "longitude": "-113.94850406578414",
+            "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+        },
+        "locationcount": "1",
+        "locationtypes": "Titled Parcel",
+        "locationaddresses": "330 RED SKY TC NE",
+        "locationswkt": "POINT (-113.94850406578414 51.17361948379003)",
+        "locationsgeojson": "{\"type\":\"Point\",\"coordinates\":[-113.94850406578414,51.17361948379003]}",
+        ":@computed_region_4b54_tmc4": "11",
+        ":@computed_region_4a3i_ccfj": "4",
+        ":@computed_region_kxmf_bzkv": "3",
+        ":@computed_region_p8tp_5dkv": "1"
+    },
+	*/
+	https://data.calgary.ca/resource/848s-4m4z.json
+	//Crime stats
+	 {
+        "sector": "NORTH",
+        "community_name": "THORNCLIFFE",
+        "group_category": "Crime",
+        "category": "Theft FROM Vehicle",
+        "count": "9",
+        "resident_count": "8474",
+        "date": "2018-03-01T12:00:00.000",
+        "year": "2018",
+        "month": "MAR",
+        "id": "2018-MAR-THORNCLIFFE-Theft FROM Vehicle-9",
+        "geocoded_column": {
+            "latitude": "51.103099554741",
+            "longitude": "-114.068779421169",
+            "human_address": "{\"address\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\"}"
+        },
+        ":@computed_region_4a3i_ccfj": "2",
+        ":@computed_region_p8tp_5dkv": "4",
+        ":@computed_region_4b54_tmc4": "2",
+        ":@computed_region_kxmf_bzkv": "192"
+    },
+	https://data.calgary.ca/resource/k7p9-kppz.json
+	//Traffic cameras
+	{
+        "camera_url": {
+            "url": "http://trafficcam.calgary.ca/loc29.jpg",
+            "description": "Camera 30"
+        },
+        "quadrant": "SE",
+        "camera_location": "114 Avenue / 52 Street SE",
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                -113.958331,
+                50.9504395
+            ]
+        },
+        ":@computed_region_4a3i_ccfj": "3",
+        ":@computed_region_kxmf_bzkv": "79",
+        ":@computed_region_p8tp_5dkv": "8",
+        ":@computed_region_4b54_tmc4": "4"
+    },
+	https://data.calgary.ca/resource/35ra-9556.json
+	//traffic incidents
+	 {
+        "incident_info": " Northbound Deerfoot Trail approaching Southland Drive SE ",
+        "description": "Two vehicle incident.",
+        "start_dt": "2019-03-18T07:04:15.000",
+        "longitude": "-114.030831408227",
+        "latitude": "50.9612260750063",
+        "location": {
+            "latitude": "50.961226075006",
+            "longitude": "-114.030831408227"
+        },
+        "count": "1",
+        "id": "2019031807041550.9612260750063-114.030831408227",
+        ":@computed_region_4a3i_ccfj": "3",
+        ":@computed_region_4b54_tmc4": "6",
+        ":@computed_region_p8tp_5dkv": "5",
+        ":@computed_region_kxmf_bzkv": "93"
+    },
+	
+	//School enrollment
+	 https://data.calgary.ca/resource/9qye-mibh.json 
+	  {
+        "school_year": "2013_2014",
+        "school_authority_category": "Public",
+        "school_authority_name": "Calgary School District No. 19",
+        "school_authority_code": "3030",
+        "school_name": "Midsun School",
+        "school_code": "348",
+        "grade_7": "249",
+        "grade_8": "248",
+        "grade_9": "287",
+        "total": "784"
+    },
+	//google query
+	https://developers.google.com/maps/documentation/urls/get-started
+	https://www.google.com/maps/search/?api=1&query=47.5951518,-122.3316393
+	https://www.google.com/maps/search/?api=1&query=50.961226075006,-114.030831408227
+	
+	https://openweathermap.org/api
+	api key: 6506ce6e32eb9f06e3362cf282d394da
+	672c0f929aaf263a629d2dad4e67e3fd
+	api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+	api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
+	https://towardsdatascience.com/best-5-free-stock-market-apis-in-2019-ad91dddec984
+	https://rapidapi.com/blog/best-sports-apis-ranked/
+	https://rapidapi.com/api-sports/api/api-football
+	
+	https://opendata.cityofnewyork.us/
+	https://www.ga.gov.au/dea/odc
+	https://data.ca.gov/
+    https://data.europa.eu/euodp/en/data/

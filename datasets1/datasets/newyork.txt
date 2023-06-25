@@ -1,0 +1,83 @@
+//city of new york
+https://data.cityofnewyork.us/resource/ipu4-2q9a.json
+
+[
+    {
+        "borough": "MANHATTAN",
+        "bin__": "1077287",
+        "house__": "1230",
+        "street_name": "6TH AVENUE",
+        "job__": "123725807",
+        "job_doc___": "01",
+        "job_type": "A2",
+        "self_cert": "Y",
+        "block": "01264",
+        "lot": "00005",
+        "community_board": "105",
+        "zip_code": "10020",
+        "bldg_type": "2",
+        "special_district_1": "MID",
+        "work_type": "OT",
+        "permit_status": "ISSUED",
+        "filing_status": "RENEWAL",
+        "permit_type": "EW",
+        "permit_sequence__": "02",
+        "permit_subtype": "OT",
+        "site_fill": "NOT APPLICABLE",
+        "filing_date": "12/11/2020",
+        "issuance_date": "12/11/2020",
+        "expiration_date": "11/02/2021",
+        "job_start_date": "12/23/2019",
+        "permittee_s_first_name": "COLM",
+        "permittee_s_last_name": "MORRISSEY",
+        "permittee_s_business_name": "COYLE CONTRACTING CORP",
+        "permittee_s_phone__": "2125108276",
+        "permittee_s_license_type": "GC",
+        "permittee_s_license__": "0608236",
+        "owner_s_business_type": "CORPORATION",
+        "non_profit": "N",
+        "owner_s_business_name": "TISHMAN SPEYER",
+        "owner_s_first_name": "GEOFF",
+        "owner_s_last_name": "ROSS",
+        "owner_s_house__": "45",
+        "owner_s_house_street_name": "ROCKEFELLER PLAZA",
+        "city": "NEW YORK",
+        "state": "NY",
+        "owner_s_zip_code": "10111",
+        "owner_s_phone__": "2127150300",
+        "dobrundate": "12/12/2020 00:00:00",
+        "permit_si_no": "3554580",
+        "gis_latitude": "40.758977",
+        "gis_longitude": "-73.981089",
+        "gis_council_district": "4",
+        "gis_census_tract": "96",
+        "gis_nta_name": "Midtown-Midtown South"
+    }
+	
+	//Motor vehicle crashes
+	 https://data.cityofnewyork.us/resource/h9gi-nx95.json 
+	  {
+        "crash_date": "2018-10-15T00:00:00.000",
+        "crash_time": "8:00",
+        "latitude": "40.6365470",
+        "longitude": "-73.9258400",
+        "location": {
+            "latitude": "40.636547",
+            "longitude": "-73.92584"
+        },
+        "on_street_name": "EAST 53 STREET                  ",
+        "off_street_name": "KINGS HIGHWAY",
+        "number_of_persons_injured": "0",
+        "number_of_persons_killed": "0",
+        "number_of_pedestrians_injured": "0",
+        "number_of_pedestrians_killed": "0",
+        "number_of_cyclist_injured": "0",
+        "number_of_cyclist_killed": "0",
+        "number_of_motorist_injured": "0",
+        "number_of_motorist_killed": "0",
+        "contributing_factor_vehicle_1": "Backing Unsafely",
+        "contributing_factor_vehicle_2": "Driver Inattention/Distraction",
+        "collision_id": "4001073",
+        "vehicle_type_code1": "Sedan",
+        "vehicle_type_code2": "Sedan"
+    }

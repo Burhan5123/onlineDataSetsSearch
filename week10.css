@@ -1,0 +1,30 @@
+body{
+
+    background-image: url(photo/img1.jpg);
+}
+
+h2{
+
+    color: rgb(186, 45, 69);
+    font-size: 3vw;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+
+.radio,table{
+    text-align: center;
+    margin: auto;
+    color: rgb(200, 100, 116);
+    font-size: 1.8vw;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#searchItemBy{
+    text-align: center;
+    margin: auto;
+    color: rgb(141, 137, 137);
+    font-size: 2.5vw;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
